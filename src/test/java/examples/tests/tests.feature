@@ -5,8 +5,8 @@ Feature: ui test
     * configure driver = { type: 'safari'}
 
     * driver webUrlBase + '/search?q=google'
-#    * input('textarea[name=q]','hello namaste')
-#    * submit().input('#someform', Key.ENTER)
+    * input('textarea[name=q]','hello namaste')
+    * submit().input('#someform', Key.ENTER)
 #    * match text('#placeholder') == 'After'
 
     Examples:
